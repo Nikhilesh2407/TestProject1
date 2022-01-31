@@ -29,5 +29,13 @@ namespace TestProject1
             Gettitle = Driver.Title;
             Assert.AreEqual("Intelligence Enhanced Computing – Arm®", Gettitle);
         }
+
+        [Test]
+        public void Test3()
+        {
+            string Gettitle;
+            Gettitle = Driver.Title;
+            Assert.AreEqual("Artificial Intelligence Enhanced Computing – Arm®", Gettitle);
+        }
     }
 }
